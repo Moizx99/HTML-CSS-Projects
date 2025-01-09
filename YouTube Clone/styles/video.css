@@ -5,15 +5,14 @@
   row-gap: 40px;
 }
 
-.thumbnail {
- width: 100%;
-}
-
 .thumbnail-row {
   margin-bottom: 8px;
 }
 
-
+.thumbnail {
+ width: 100%;
+ border-radius: 14px;
+}
 
 .video-info-row {
   display: grid;
@@ -25,7 +24,6 @@
   height: 40px;
   border-radius: 20px;
   object-fit: cover;
-
 }
 
 .video-title {
