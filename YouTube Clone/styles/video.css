@@ -7,11 +7,24 @@
 
 .thumbnail-row {
   margin-bottom: 8px;
+  position: relative;
 }
 
 .thumbnail {
  width: 100%;
  border-radius: 14px;
+}
+
+.video-time {
+  position: absolute;
+  bottom: 12px;
+  right: 8px;
+  background-color: rgba(0, 0, 0, 0.555);
+  color: white;
+  font-weight: 500;
+  padding: 2px 4px;
+  font-size: 12px;
+  border-radius: 2px;
 }
 
 .video-info-row {
@@ -20,9 +33,9 @@
 }
 
 .profile-pic {
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
   object-fit: cover;
 }
 
