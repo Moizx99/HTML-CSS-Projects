@@ -58,21 +58,56 @@
   margin-right: 8px;
 }
 
+.search-button,
+.voice-search-button,
+.upload-box,
+.youtube-apps-box,
+.notification-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-button .tooltip,
+.voice-search-button .tooltip,
+.upload-box .tooltip,
+.youtube-apps-box .tooltip,
+.notification-box .tooltip {
+  background-color: rgba(97, 97, 97, 0.685);
+  color: white;
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 2px;
+  position: absolute;
+  bottom: -36px;
+  opacity: 0;
+  transition: opacity 0.25s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip,
+.upload-box:hover .tooltip,
+.youtube-apps-box:hover .tooltip,
+.notification-box:hover .tooltip {
+  opacity: 1;
+}
+
 .search-icon {
   height: 24px;
-  margin-top: 4px;
 }
 
 .voice-search-button {
-  height: 38px;
+  height: 40px;
   width: 40px;
   border: none;
-  border-radius: 17px;
+  border-radius: 20px;
 }
 
 .voice-search-icon {
   height: 24px;
-  margin-top: 3px;
 }
 
 
