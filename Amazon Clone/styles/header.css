@@ -2,4 +2,23 @@
   height: 60px;
   background-color: #0f1111;
   color: white;
+
+  display: flex;
+}
+
+.left {
+  background-color: lightblue;
+  width: 220px;
+  margin-right: 14px;
+}
+
+.middle {
+  background-color: lightpink;
+  flex: 1;
+}
+
+.right {
+  background-color: lightblue;
+  width: 390px;
+  margin-left: 15px;
 }
