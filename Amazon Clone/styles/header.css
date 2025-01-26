@@ -2,15 +2,17 @@
   height: 60px;
   background-color: #0f1111;
   color: white;
-
   display: flex;
   align-items: center;
 }
-
+.left {
+  display: flex;
+}
 .logo-box {
   height: 58px;
   width: 114px;
   margin-left: 10px;
+  flex-wrap: nowrap;
 }
 
 .border {
@@ -30,9 +32,21 @@
   width: 100%;
 }
 
-.deliver-box {
-  padding: 10px 6px;
+.deliver-box,
+.sign-in-box,
+.Order-return,
+.Cart-box,
+.hamburger {
+  padding: 8px 6px;
   margin-left: 1px;
+}
+
+.list-row span {
+  padding: 8px 6px;
+  margin-left: 1px;
+}
+.deliver-box {
+  flex-wrap: nowrap;
 }
 
 .deliver-to {
@@ -54,4 +68,100 @@
   font-size: 14px;
   font-weight: bold;
   margin-left: 6px;
+}
+
+.search-row {
+  margin-left: 14px;
+  height: 40px;
+  width: 955px;
+  border-radius: 4px;
+  display: flex;
+  margin-right: 22px;
+}
+
+.select-option {
+  width: 50px;
+  text-align: center;
+  border: none;
+  background-color: #f0f2f2;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.select-option:hover {
+  background-color: #f0f2f2c7;
+  cursor: pointer;
+}
+
+.search-bar {
+  border: none;
+  padding-left: 10px;
+  font-size: 16px;
+  flex: 1;
+  width: 350px;
+}
+
+.search-icon {
+  width: 45px;
+  text-align: center;
+  color: #0f1111;
+  font-size: 20px;
+  padding-top: 10px;
+  background-color: #febd68;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.search-icon:hover {
+  background-color: #ec931fe3;
+  cursor: pointer;
+}
+.right {
+  display: flex;
+}
+.sign-in-box{
+  margin-left: 75px;
+}
+.sign-in {
+  font-size: 12px;
+}
+
+.Accounts-list,
+.cart-para {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.Cart-box i {
+  font-size: 24px;
+}
+
+.nav-section {
+  height: 40px;
+  background-color: #1a272e;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.hamburger {
+  margin-left: 16px;
+}
+
+.hamburger i {
+  font-size: 18px;
+}
+
+.hamburger span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.list-row {
+  flex: 1;
+}
+
+.list-row span{
+  font-size: 14px;
+  padding-left: 10px;
 }
