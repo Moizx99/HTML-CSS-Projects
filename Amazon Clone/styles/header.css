@@ -4,21 +4,54 @@
   color: white;
 
   display: flex;
+  align-items: center;
 }
 
-.left {
-  background-color: lightblue;
-  width: 220px;
-  margin-right: 14px;
+.logo-box {
+  height: 58px;
+  width: 114px;
+  margin-left: 10px;
 }
 
-.middle {
-  background-color: lightpink;
-  flex: 1;
+.border {
+  border: 1.5px solid transparent;
 }
 
-.right {
-  background-color: lightblue;
-  width: 390px;
-  margin-left: 15px;
+.border:hover {
+  border: 1.5px solid white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.amazon-logo {
+  background-image: url("../images/amazon_logo.png");
+  background-size: cover;
+  height: 55px;
+  width: 100%;
+}
+
+.deliver-box {
+  padding: 10px 6px;
+  margin-left: 1px;
+}
+
+.deliver-to {
+  font-size: 12px;
+  color: #cccccc;
+  margin-left: 18px;
+}
+
+.deliver-row {
+  display: flex;
+  align-items: center;
+}
+
+.fa-solid {
+  margin-bottom: 4px;
+}
+
+.country-deliver-para {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 6px;
 }
