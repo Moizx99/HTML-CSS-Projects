@@ -1,0 +1,50 @@
+.main-image {
+  height: 600px;
+  width: 1500px;
+  display: block;            /* Makes the image a block element */
+  margin: 0 auto;            /* Centers the image horizontally */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 350px 350px 350px 350px;
+  width: 1500px;
+  margin: 0 auto;
+  column-gap: 20px;
+  row-gap: 20px;
+  padding-left: 20px;
+  margin-top: -350px;
+}
+
+.item-chart{
+  height: 400px;
+  background-color: white;
+}
+
+.item-chart h2 {
+  padding-left: 16px;
+  padding-top: 20px;
+  font-size: 21px;
+}
+
+.item-chart img {
+  width: 340px;
+  height: 300px;
+  padding: 10px 16px;
+}
+
+.item-chart img:hover {
+  cursor: pointer;
+}
+
+.item-chart span{
+  display: block;
+  font-size: 13px;
+  color: #2162A1;
+  padding-left: 16px;
+  padding-bottom: 20px;
+}
+
+.item-chart span:hover {
+  cursor: pointer;
+}
