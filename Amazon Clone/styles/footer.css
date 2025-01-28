@@ -18,5 +18,39 @@ footer {
 
 .more-info {
   background-color: #232F3e;
-  height: 300px;
+  height: 350px;
+}
+
+.info-box {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.heading {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 4px;
+  display: inline-block;
+}
+
+.footer-list-2 {
+  width: 160px;
+}
+
+.footer-list-4 {
+  width: 140px;
+}
+
+ul a{
+  display: block;
+  color: #DDDDDD;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 4px 0;
+}
+
+a:hover {
+  text-decoration: underline;
 }
