@@ -1,0 +1,22 @@
+footer {
+  margin-top: 50px;
+}
+
+.back-top {
+  height: 50px;background-color: #002649cb;
+  color: white;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-top:hover {
+  background-color: #002649be;
+  cursor: pointer;
+}
+
+.more-info {
+  background-color: #232F3e;
+  height: 300px;
+}
