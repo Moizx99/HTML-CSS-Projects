@@ -1,0 +1,48 @@
+.background-image {
+  background-image: url("../images/background.jpg");
+  height: 750px;
+  position: relative;
+}
+
+.background-opacity-image {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  top: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 130px;
+  padding: 8px 0;
+
+  position: absolute; /* Position the header at the top of the container */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2; /* Ensure it's on top of the overlay and background */
+}
+
+.netflix-logo {
+  width: 162px;
+  height: 80px;
+}
+
+.sign-in-btn {
+  background-color: rgb(229, 9, 20);
+  border: none;
+  padding: 9px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.4s;
+}
+
+.sign-in-btn:hover {
+  background-color: rgba(229, 9, 20, 0.856);
+  cursor: pointer;
+}
+
+
