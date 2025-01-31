@@ -2,6 +2,9 @@
   background-image: url("../images/background.jpg");
   height: 750px;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .background-opacity-image {
@@ -19,11 +22,13 @@
   margin: 0 130px;
   padding: 8px 0;
 
-  position: absolute; /* Position the header at the top of the container */
+  position: absolute;
+  /* Position the header at the top of the container */
   top: 0;
   left: 0;
   right: 0;
-  z-index: 2; /* Ensure it's on top of the overlay and background */
+  z-index: 2;
+  /* Ensure it's on top of the overlay and background */
 }
 
 .netflix-logo {
@@ -50,4 +55,71 @@
   background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
 }
 
+.main-content-box {
+  position: absolute;
+  /* top: 0;
+  left: 0;
+  right: 0; */
+  z-index: 10;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+}
 
+.main-content-box h1 {
+  font-size: 56px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.main-content-box p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.main-content-box h3 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.input-btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-input {
+  width: 330px;
+  height: 54px;
+  padding-left: 12px;
+  /* padding: 12px 12px; */
+  border-radius: 4px;
+  border: none;
+  margin-right: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: rgba(22, 22, 22, 0.75);
+  border: 1px solid rgba(184, 181, 181, 0.75);
+}
+
+.input-btn-box button {
+  background-color: rgb(229, 9, 20);
+  border: none;
+  height: 56px;
+  padding: 0 20px;
+  /* padding: 12px 20px; */
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: background-color 0.4s;
+}
+
+.input-btn-box button:hover {
+  background-color: rgba(229, 9, 20, 0.856);
+  cursor: pointer;
+}
